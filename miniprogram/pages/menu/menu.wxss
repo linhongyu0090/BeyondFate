@@ -1,0 +1,88 @@
+.background{
+  width: 100%;
+  height: 2600rpx;
+  position: fixed;
+  background-size: 100% 100%;
+  z-index: -2;
+}
+
+.rank{
+  height: 100rpx;
+  width: 100%;
+  padding-top: 10rpx;
+  padding-right: 250rpx;
+  position: relative;
+  align-items: center;
+}
+.rank image {
+  padding-right: 10rpx;
+  height: 110rpx;
+  position: relative; 
+  left: 356rpx; 
+  top: 0rpx
+}
+
+.turn_into .local{
+  width: 300rpx;
+  height: 100rpx;
+  left:30%;
+  position: absolute;
+  top: 300rpx;
+}
+.jump .man-machine{
+  width: 300rpx;
+  height: 100rpx;
+  left:30%;
+  position: absolute;
+  top: 520rpx;
+}
+.jump1 .Double{
+  width: 300rpx;
+  height: 100rpx;
+  left:30%;
+  position: absolute;
+  top: 735rpx;
+}
+.jump2 .rule{
+  width: 300rpx;
+  height: 100rpx;
+  left:30%;
+  position: absolute;
+  top: 950rpx;
+}
+.turn_into .information{
+  width: 80rpx;
+  height: 80rpx;
+  left:80%;
+  position: absolute;
+  top: 1300rpx;
+}
+.cloud1{
+  width: 358rpx;
+  height: 212rpx;
+  left:25%;
+  position: absolute;
+  top: 230rpx;
+}
+.cloud2{
+  width: 358rpx;
+  height: 212rpx;
+  left:25%;
+  position: absolute;
+  top: 450rpx;
+}
+.cloud3{
+  width: 358rpx;
+  height: 212rpx;
+  left:25%;
+  position: absolute;
+  top: 670rpx;
+}
+.cloud4{
+  width: 358rpx;
+  height: 212rpx;
+  left:25%;
+  position: absolute;
+  top: 890rpx;
+}
+

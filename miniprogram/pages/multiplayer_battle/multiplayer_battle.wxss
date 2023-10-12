@@ -1,0 +1,359 @@
+.background{
+  width: 784rpx;
+  height: 2350rpx;
+  position: fixed;
+  background-size: 100% 100%;
+  z-index: -2;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100rpx;
+  align-content: center;
+}
+.multiple{
+  width: 100%;
+  height: 100%;
+}
+
+.count{
+  display: flex;  
+  /* flex-direction: row;  
+  justify-content: space-between;
+  justify-content: center;   */
+  align-items: center;  
+  width: 100%;
+  height: 100rpx;
+  /* position: absolute; */
+}
+.count .text{
+  height: 80rpx;
+  width: 50%;
+}
+.count .num{
+  width: 50%;
+  height: 50rpx;
+  text-align: center;
+}
+
+
+.line{
+  width: 100%;
+  height: 5rpx;
+  left:0%;
+  position: absolute;
+  top: 180rpx;
+}
+.Fixed_area{
+  width: 250rpx;
+  height: 70rpx;
+  left:35%;
+  position: absolute;
+  top: 200rpx;
+}
+
+/* 设置公共投掷区骰子的格式 */
+
+.pubdice {
+  padding: 60rpx 0rpx;
+  display: flex;
+  align-items: center;
+}
+
+.pubdice .dice {
+  padding: 0 10rpx;
+}
+
+.pubdice .dice image {
+  width: 130rpx;
+  height: 130rpx;
+}
+
+.mydice {
+  padding: 60rpx 0rpx;
+  display: flex;
+  align-items: center;
+}
+
+.mydice .dice {
+  padding: 0 10rpx;
+}
+
+.mydice .dice image {
+  width: 130rpx;
+  height: 130rpx;
+}
+
+.line1{
+  width: 100%;
+  height: 5rpx;
+  left:0%;
+  position: absolute;
+  top: 536rpx;
+}
+
+.public{
+  width: 100%;
+  height: 70rpx;
+  /* left:35%;
+  position: absolute;
+  top: 556rpx; */
+  display: flex;
+  justify-content: center;
+  /* padding-top: 50rpx; */
+}
+
+.public .pic{
+  width: 300rpx;
+  height: 100rpx;
+}
+
+.pubdice{
+  width: 100%;
+  display: flex;
+  /* flex-direction: row; */
+  /* align-items:center; */
+  padding-top: 0;
+  height: 70rpx;
+}
+
+.pubdice .dice{
+  height: 70rpx;
+} 
+.pubdice image{
+  height: 70rpx;
+}
+
+.select{
+  width: 100%;
+  height: 70rpx;
+  /* left:35%;
+  position: absolute;
+  top: 556rpx; */
+  display: flex;
+  justify-content: center;
+  padding-top: 100rpx;
+}
+
+.select .pic{
+  width: 300rpx;
+  height: 100rpx;
+}
+
+
+.line2{
+  width: 780rpx;
+  height: 5rpx;
+  left:0%;
+  position: absolute;
+  top: 892rpx;
+}
+.Fixed_area1{
+  width: 250rpx;
+  height: 70rpx;
+  left:35%;
+  position: absolute;
+  top: 912rpx;
+}
+.line3{
+  width: 780rpx;
+  height: 5rpx;
+  left:0%;
+  position: absolute;
+  top: 1250rpx;
+}
+
+.mydice{
+  width: 100%;
+  display: flex;
+  /* flex-direction: row; */
+  /* align-items:center; */
+  padding-top: 0;
+  height: 70rpx;
+}
+
+.mydice .dice{
+  height: 70rpx;
+} 
+.mydice image{
+  height: 70rpx;
+}
+
+.throw{
+  width: 150rpx;
+  height: 100rpx;
+  left:40%;
+  position: absolute;
+  top: 1280rpx;
+}
+
+.reset{
+  width: 150rpx;
+  height: 100rpx;
+  left:40%;
+  position: absolute;
+  top: 1280rpx;
+}
+
+.head_sculpture1{
+  width: 100rpx;
+  height: 100rpx;
+  left:85%;
+  position: absolute;
+  top: 1290rpx;
+}
+
+
+.cloud{
+  width: 302rpx;
+  height: 104rpx;
+  left:30%;
+  position: absolute;
+  top: 1280rpx;
+}
+
+
+
+
+.info{
+  width: 100%;
+  height: 50rpx;
+  display: flex;
+  align-items: center;
+}
+
+.result{
+  display: flex;
+  align-items: center;
+  height: 100rpx;
+}
+
+.result .pointtext{
+  height: 100rpx;
+  width: 250rpx;
+}
+
+.result .point{
+  height:50rpx;
+  width: 250rpx;
+}
+
+.result .typetext{
+  height: 100rpx;
+  width: 250rpx;
+}
+
+.result .type{
+  height: 50rpx;
+  width: 250rpx;
+}
+
+
+.scrollNav {
+  padding: 60rpx 30rpx;
+}
+
+.scrollNav scroll-view {
+  white-space: nowrap;
+}
+
+.scrollNav scroll-view .item {
+  display: inline-block;
+  padding: 0 20rpx;
+  text-align: center;
+}
+
+.scrollNav scroll-view .item .pic {
+  width: 105rpx;
+  height: 105rpx;
+  padding-left: 40rpx;
+}
+
+.scrollNav scroll-view .item .pic image {
+  width: 100%;
+  height: 100%;
+}
+
+.scrollNav scroll-view .item .text {
+  font-size: 34rpx;
+  color: var(--globalColor);
+  padding-top: 10rpx;
+}
+.scrollNav scroll-view .item .text2 {
+  font-size: 34rpx;
+  color: var(--globalColor);
+  padding-top: 12rpx;
+}
+.scrollNav scroll-view .item .text3 {
+  font-size: 34rpx;
+  color: var(--globalColor);
+  padding-top: 14rpx;
+}
+
+.scrollNav scroll-view .item:first-child {
+  padding-left: 0;
+}
+
+.scrollNav scroll-view .item:last-child {
+  padding-right: 0;
+}
+
+
+.addTimes{
+  width: 100%;
+  height: 50rpx;
+  display: flex;
+  align-items: center;
+  padding-top: 80rpx;
+}
+
+.addTimes .pic{
+  width: 25%;
+  height: 70rpx;
+}
+.addTimes .times{
+  width: 40%;
+  height: 70rpx;
+  display: flex;
+}
+
+.addTimes .times .time1{
+  border: 1rpx solid var(--subColor);
+  border-radius: 50%;
+}
+
+.addTimes .times .time2{
+  border: 1rpx solid var(--subColor);
+  border-radius: 50%;
+}
+
+.addTimes .times .time3{
+  border: 1rpx solid var(--subColor);
+  border-radius: 50%;
+}
+
+.addTimes .pic image{
+  width: 100%;
+  height: 70rpx;
+}
+.addTimes .times image{
+  width: 100%;
+  height: 70rpx;
+}
+
+.addTimes .totaltext{
+  width: 25%;
+  height: 70rpx;
+}
+
+.addTimes .totaltext image{
+  width: 100%;
+  height: 70rpx;
+}
+
+.addTimes .totalnum{
+  width: 10%;
+  height: 80%;
+}

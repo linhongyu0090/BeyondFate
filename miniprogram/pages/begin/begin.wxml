@@ -1,0 +1,20 @@
+<view>
+  <image class='background' src="{{background_begin_pic}}"
+  mode="aspectFill"/>
+ </view>
+
+ <view>
+  <image class='game_name' src="{{game_name_pic}}" 
+  mode="aspectFill"/>
+ </view>
+
+<view>
+  <image class='cloud' src="{{cloud_pic}}" 
+  mode="aspectFill"/>
+  <navigator url="/pages/menu/menu" class="enter">
+  <image style="position: absolute; left: 0rpx; top: 900rpx" class='enter_game' src="{{begin_pic}}" 
+  mode="aspectFill"/>
+  </navigator>
+</view>
+
+

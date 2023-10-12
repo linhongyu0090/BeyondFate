@@ -1,0 +1,9 @@
+<image class='background' src="{{background_pic}}" 
+ mode="aspectFill"/>
+ <image class='rule' src="{{title_pic}}" 
+ mode="aspectFill"/>
+ <image class='content' src="{{game_rule_pic}}" 
+ mode="aspectFill"/>
+ <navigator url="/pages/menu/menu" class="jump">
+  <image class='menu' src="{{menu_pic}}" mode="aspectFill"/>
+ </navigator>

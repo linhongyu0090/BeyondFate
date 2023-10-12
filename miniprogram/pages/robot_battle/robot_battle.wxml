@@ -1,0 +1,179 @@
+<image class='background' src="{{background_pic}}" 
+ mode="aspectFill"/>
+<image style="position: absolute; left: 15rpx; top: 1174rpx" class='chip' src="{{present_point_pic}}" 
+ mode="aspectFill"/>
+<image style="position: absolute; left: 15rpx; top: 488rpx" class='chip' src="{{present_point_pic}}" 
+ mode="aspectFill"/>
+<view class="my_integral">
+{{my_integral}}
+</view>
+<view class="enemy_integral">
+{{enemy_integral}}
+</view>
+
+
+<image style="position: absolute; left: 471rpx; top: 1175rpx; width: 200rpx; height: 60rpx; display: block; box-sizing: border-box" class='chip' src="{{brandtype_pic}}" 
+ mode="aspectFill"/>
+<image style="position: absolute; left: 488rpx; top: 488rpx; width: 200rpx; height: 60rpx; display: block; box-sizing: border-box" class='chip' src="{{brandtype_pic}}" 
+ mode="aspectFill"/>
+
+
+
+
+ <image class='double' src="{{title_pic}}" 
+ mode="aspectFill"/>
+ <image class='head_sculpture' src="{{robot_pic}}" 
+ mode="aspectFill"/>
+
+ <view class = "count">
+  <image class='text' src="{{present_num_pic}}" 
+ mode="aspectFit"/>
+  <view class ="num">
+    {{current_num}}
+  </view>
+  <image class='text1' src="{{total_time}}" 
+ mode="aspectFit"/>
+  <view class="num1">
+  {{Magnification}}
+  </view>
+</view>
+
+ 
+
+ <view>
+  <image style="position: absolute; left: 251rpx; top: 240rpx" class='Fixed_area' src="{{enemy_dice_pic}}" 
+ mode="aspectFill"/>
+ <!-- 需导入敌方选定情况 -->
+ </view>
+
+
+
+ <view class="enemydice" style="position: relative; left: 0rpx; top: 254rpx; width: 750rpx; height: 234rpx; display: flex; box-sizing: border-box">
+  <image style="width: 146rpx; height: 120rpx; display: block; box-sizing: border-box" src="{{enemydice[0]}}"
+ mode="aspectFit"/>
+ <image style="width: 146rpx; height: 120rpx; display: block; box-sizing: border-box" src="{{enemydice[1]}}" 
+ mode="aspectFit"/>
+ <image style="width: 146rpx; height: 120rpx; display: block; box-sizing: border-box" src="{{enemydice[2]}}"
+ mode="aspectFit"/>
+ <image style="width: 146rpx; height: 120rpx; display: block; box-sizing: border-box" src="{{enemydice[3]}}"
+ mode="aspectFit"/>
+ <image style="width: 146rpx; height: 120rpx; display: block; box-sizing: border-box" src="{{enemydice[4]}}"
+ mode="aspectFit"/>
+ </view>
+
+
+
+ <image style="position: absolute; left: -12rpx; top: 550rpx" class='line1' src="{{line_pic}}" 
+ mode="aspectFill"/>
+<image style="position: absolute; left: 4rpx; top: 205rpx" class='line1' src="{{line_pic}}" 
+ mode="aspectFill"/>
+
+
+ <view>
+  <image class='public' src="{{public_dice_pic}}" 
+ mode="aspectFill"/>
+ <!-- 需在触发投掷事件后显示骰子情况 -->
+ </view>
+
+ <view class="publicdice" style="position: relative; left: -13rpx; top: 371rpx; width: 750rpx; height: 200rpx; display: flex; box-sizing: border-box">
+  <image class="dice1" bind:tap="clickdice" data-index="{{0}}" style="width: 146rpx; height: 120rpx; display: block; box-sizing: border-box" src="{{pubdice[0]}}" 
+ mode="aspectFit"/>
+ <image bind:tap="clickdice" data-index="{{1}}" style="width: 146rpx; height: 120rpx; display: block; box-sizing: border-box" src="{{pubdice[1]}}" 
+ mode="aspectFit"/>
+ <image bind:tap="clickdice" data-index="{{2}}" style="width: 146rpx; height: 120rpx; display: block; box-sizing: border-box" src="{{pubdice[2]}}" 
+ mode="aspectFit"/>
+ <image bind:tap="clickdice" data-index="{{3}}" style="width: 146rpx; height: 120rpx; display: block; box-sizing: border-box" src="{{pubdice[3]}}" 
+ mode="aspectFit"/>
+ <image bind:tap="clickdice" data-index="{{4}}" style="width: 146rpx; height: 120rpx; display: block; box-sizing: border-box" src="{{pubdice[4]}}" 
+ mode="aspectFit"/>
+ </view>
+
+ <image wx:if="{{(changeRole == false&&my_isLock[0]==true)||(enemy_isLock[0]==true&&changeRole == true)}}" style="position: absolute; left: 15rpx; top: 798rpx; width: 100rpx; height: 50rpx; display: block; box-sizing: border-box" class='chip' src="{{lock_pic}}" 
+ mode="aspectFill"/>
+<image wx:if="{{(changeRole == false&&my_isLock[1]==true)||(enemy_isLock[1]==true&&changeRole == true)}}" style="position: absolute; left: 156rpx; top: 798rpx; width: 100rpx; height: 50rpx; display: block; box-sizing: border-box" class='chip' src="{{lock_pic}}" 
+ mode="aspectFill"/>
+ <image wx:if="{{(changeRole == false&&my_isLock[2]==true)||(enemy_isLock[2]==true&&changeRole == true)}}" style="position: absolute; left: 302rpx; top: 798rpx; width: 100rpx; height: 50rpx; display: block; box-sizing: border-box" class='chip' src="{{lock_pic}}" 
+ mode="aspectFill"/>
+<image wx:if="{{(changeRole == false&&my_isLock[3]==true)||(enemy_isLock[3]==true&&changeRole == true)}}" style="position: absolute; left: 449rpx; top: 798rpx; width: 100rpx; height: 50rpx; display: block; box-sizing: border-box" class='chip' src="{{lock_pic}}" 
+ mode="aspectFill"/>
+<image wx:if="{{(changeRole == false&&my_isLock[4]==true)||(enemy_isLock[4]==true&&changeRole == true)}}" style="position: absolute; left: 594rpx; top: 798rpx; width: 100rpx; height: 50rpx; display: block; box-sizing: border-box" class='chip' src="{{lock_pic}}" 
+ mode="aspectFill"/>
+
+ <image wx:if="{{(!changeRole&&my_throw<3)}}" class='multiplay1' bindtap="countmul" data-index="{{1}}" src="{{time_1_pic}}" 
+ mode="aspectFill"/>
+ <image wx:if="{{(!changeRole&&my_throw<3)}}" class='multiplay2' bindtap="countmul" data-index="{{2}}" src="{{time_2_pic}}" 
+ mode="aspectFill"/>
+ <image wx:if="{{(!changeRole&&my_throw<3)}}" class='multiplay3' bindtap="countmul" data-index="{{3}}" src="{{time_3_pic}}" 
+ mode="aspectFill"/>
+
+ <image class='line2' src="{{line_pic}}" 
+ mode="aspectFill"/>
+
+ <view>
+  <image class='Fixed_area1' src="{{my_dice_pic}}" 
+ mode="aspectFill"/>
+ <!-- 需导入我方选定情况 --> 
+ </view>
+
+ <view class="mydice" style="position: relative; left: 0rpx; top: 522rpx; width: 750rpx; height: 200rpx; display: flex; box-sizing: border-box">
+<image style="width: 146rpx; height: 120rpx; display: block; box-sizing: border-box" src="{{mydice[0]}}" 
+ mode="aspectFit"/>
+ <image style="width: 146rpx; height: 120rpx; display: block; box-sizing: border-box" src="{{mydice[1]}}" 
+ mode="aspectFit"/>
+ <image style="width: 146rpx; height: 120rpx; display: block; box-sizing: border-box" src="{{mydice[2]}}" 
+ mode="aspectFit"/>
+ <image style="width: 146rpx; height: 120rpx; display: block; box-sizing: border-box" src="{{mydice[3]}}" 
+ mode="aspectFit"/>
+ <image style="width: 146rpx; height: 120rpx; display: block; box-sizing: border-box" src="{{mydice[4]}}" 
+ mode="aspectFit"/>
+ </view>
+
+ <image class='line3' src="{{line_pic}}" 
+ mode="aspectFill"/>
+
+ <view>
+  <image style="position: absolute; left: 225rpx; top: 1280rpx" class='cloud' src="{{cloud1_pic}}" 
+ mode="aspectFill"/>
+ <!-- 需要设置事件，生成5个1~6的随机数并在传递给公共投掷区 -->
+  <image wx:if="{{isConfirm == false}}" class='throw' src="{{throw_pic}}" 
+ mode="aspectFill" bind:tap="clickThrow"/>
+
+<image  wx:if="{{my_throw>=3&&enemy_throw>=3}}" style="position: absolute; left: 0rpx; top: 1330rpx; width: 124rpx; height: 100rpx; display: block; box-sizing: border-box" class='reset' src="{{calculate_pic}}" 
+ mode="aspectFill" bind:tap="clickReset"/>
+
+ </view>
+
+<view>
+ <image wx:if="{{isConfirm == true}}" class='throw' src="{{confirm_pic}}" 
+ mode="aspectFill" bind:tap="change"/>
+ </view>
+
+ <image style="position: absolute; left: 639rpx; top: 1288rpx" class='head_sculpture1' src="{{robot_pic}}" 
+ mode="aspectFill"/>
+ <view>
+  <view>
+    <image class='chip' src="{{present_money_pic}}"
+    mode="aspectFill"/>
+    <view class="my_chip">
+    {{my_chip}}
+    </view>
+  </view>
+
+  <view>
+  <image class='chip1' src="{{present_money_pic}}"
+    mode="aspectFill"/>
+    <view class="enemy_chip">
+    {{enemy_chip}}
+    </view>
+  </view>
+
+
+ <!-- 还需导入当前筹码数 -->
+ </view>
+
+
+ <view class="settle" wx:if="{{num<current_num}}">
+    <navigator url="../settlement/settlement">
+    <image src="https://mp-28289c64-2f79-43ae-9504-4d243c590864.cdn.bspapp.com/image/结算@3x.png" mode="aspectFit"style="position: absolute; left: 530rpx; top: 1280rpx; width: 124rpx; height: 100rpx; display: block; box-sizing: border-box" class='reset'/>
+  </navigator>
+</view>

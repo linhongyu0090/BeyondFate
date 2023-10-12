@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/begin/begin",
+    "pages/information/information",
+    "pages/menu/menu",
+    "pages/robot_battle/robot_battle",
+    "pages/double_battle/double_battle",
+    "pages/multiplayer_battle/multiplayer_battle",
+    "pages/game_rule/game_rule",
+    "pages/prepare/perpare",
+    "pages/prepare1/prepare1",
+    "pages/prepare2/prepare2",
+    "pages/room/room",
+    "pages/rank/rank",
+    "pages/upload-page/upload-page",
+    "pages/settlement/settlement"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "胜天半子",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

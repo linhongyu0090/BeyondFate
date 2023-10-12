@@ -1,0 +1,44 @@
+<view>
+  <image class='background' src="{{background_pic}}" mode="aspectFill" />
+</view>
+
+<view class="rank">
+    <navigator url="../rank/rank">
+      <image src="https://mp-28289c64-2f79-43ae-9504-4d243c590864.cdn.bspapp.com/ranking_image/ranking.png" mode="aspectFit"/>  
+    </navigator>
+</view>
+
+<view>
+  <image class='cloud1' src="{{cloud_pic}}" mode="aspectFill" />
+  <navigator url="/pages/prepare/perpare" class="turn_into">
+    <image class='local' src="{{local_battle_pic}}" mode="aspectFill" />
+  </navigator>
+</view>
+
+<view>
+  <image class='cloud2' src="{{cloud_pic}}" mode="aspectFill" />
+  <navigator url="/pages/prepare1/prepare1" class="jump">
+    <image class='man-machine' src="{{rebot_battle_pic}}" mode="aspectFill" />
+  </navigator>
+</view>
+
+<view>
+  <image class='cloud3' src="{{cloud_pic}}" mode="aspectFill" />
+  <navigator url="/pages/room/room" class="jump1">
+    <image class='Double' src="{{double_battle_pic}}" mode="aspectFill" />
+  </navigator>
+</view>
+
+<view>
+  <image class='cloud4' src="{{cloud_pic}}" mode="aspectFill" />
+  <navigator url="/pages/game_rule/game_rule" class="jump2">
+    <image class='rule' src="{{game_rule_pic}}" mode="aspectFill" />
+  </navigator>
+</view>
+
+
+<view>
+  <navigator url="/pages/information/information" class="turn_into">
+    <image class='information' src="{{information_pic}}" mode="aspectFill" />
+  </navigator>
+</view>

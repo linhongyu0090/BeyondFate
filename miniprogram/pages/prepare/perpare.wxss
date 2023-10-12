@@ -1,0 +1,101 @@
+.background{
+  width: 784rpx;
+  height: 3000rpx;
+  position: fixed;
+  background-size: 100% 100%;
+  z-index: -2;
+}
+.jump .menu{
+  width: 70rpx;
+  height: 70rpx;
+  left:83%;
+  position: absolute;
+  top: 50rpx;
+}
+
+.people {
+  display: flex;  
+  flex-direction: column;  
+  justify-content: center;  
+  align-items: center;  
+  width: 100%;  
+  height: 250rpx;
+  position: relative;
+  top: 100rpx;
+}
+
+.people .text{
+  height: 150rpx;
+  width: 500rpx;
+}
+.people .ipt{
+  width: 500rpx;
+  height: 150rpx;
+  /* background: #eed3bd; */
+  background: var(--lightColor);
+  border-radius: 20rpx;
+  opacity: 0.5;
+}
+
+
+.count{
+  display: flex;  
+  flex-direction: column;  
+  justify-content: center;  
+  align-items: center;  
+  width: 100%;  
+  height: 250rpx;
+  position: relative;
+  margin-top: 110rpx;
+}
+.count .text{
+  height: 150rpx;
+  width: 500rpx;
+}
+.count .ipt{
+  width: 500rpx;
+  height: 150rpx;
+  /* background: #eed3bd; */
+  background: var(--lightColor);
+  border-radius: 20rpx;
+  opacity: 0.5;
+}
+
+.chip{
+  display: flex;  
+  flex-direction: column;  
+  justify-content: center;  
+  align-items: center;  
+  width: 100%;  
+  height: 250rpx;
+  position: relative;
+  margin-top: 80rpx;
+}
+.chip .text{
+  height: 150rpx;
+  width: 550rpx;
+}
+.chip .ipt{
+  width: 500rpx;
+  height: 150rpx;
+  /* background: #eed3bd; */
+  background: var(--lightColor);
+  border-radius: 20rpx;
+  opacity: 0.5;
+}
+
+
+.jump .begin{
+  width: 400rpx;
+  height: 100rpx;
+  left:27%;
+  position: absolute;
+  top: 1200rpx;
+}
+.cloud{
+  width: 358rpx;
+  height: 212rpx;
+  left:30%;
+  position: absolute;
+  bottom: 125rpx;
+}

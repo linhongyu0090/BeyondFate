@@ -1,0 +1,4053 @@
+{
+  "meta": {
+    "caseId": "f6434981-d10c-4ce0-96a7-0ae7fa44e225",
+    "caseName": "minitest-1",
+    "remarks": "",
+    "version": "0.0.1",
+    "startTime": 1697080892821,
+    "endTime": 1697080943194,
+    "appid": "wx737da1d3118dbbf6",
+    "casePath": "",
+    "caseType": "normal",
+    "commonParams": [
+      {
+        "key": "1697080943277",
+        "name": "",
+        "value": ""
+      }
+    ]
+  },
+  "env": {
+    "wxapplibVersion": "2.14.1",
+    "devtoolsVersion": "1.06.2308310",
+    "openid": "o6zAJs4m_uUfPw0wON0GwxdfBpS4",
+    "entry": {
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "query": "",
+      "scene": 1001
+    },
+    "mock": [
+      "none"
+    ],
+    "maxWaitFor": 10000,
+    "ignoreSelectors": [],
+    "mockAPIs": [],
+    "cleanCache": [
+      "none"
+    ],
+    "groupTouch": false,
+    "replaySetting": {
+      "screenshot": "none"
+    },
+    "simulatorType": "wechat",
+    "device": "iPhone X",
+    "recordAPIs": []
+  },
+  "commands": [
+    {
+      "layer": "tool",
+      "commandType": "operate",
+      "command": "startRecord",
+      "waitfor": 0,
+      "timeStamp": 1697080892821,
+      "desc": ""
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 199.11460876464844,
+            "clientY": 667.6356201171875,
+            "force": 1,
+            "pageX": 199.11460876464844,
+            "pageY": 667.6356201171875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 862.6666870117188,
+            "screenY": 1100.666748046875
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 199.11460876464844,
+            "clientY": 667.6356201171875,
+            "force": 1,
+            "pageX": 199.11460876464844,
+            "pageY": 667.6356201171875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 862.6666870117188,
+            "screenY": 1100.666748046875
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 13593,
+      "waitfor": 10000,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 199.11460876464844,
+            "clientY": 667.6356201171875,
+            "pageX": 199.11460876464844,
+            "pageY": 667.6356201171875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 862.6666870117188,
+            "screenY": 1100.666748046875
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 13664,
+      "waitfor": 71,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 199.11460876464844,
+          "y": 667.6356201171875
+        },
+        "changedTouches": [
+          {
+            "clientX": 199.11460876464844,
+            "clientY": 667.6356201171875,
+            "force": 1,
+            "pageX": 199.11460876464844,
+            "pageY": 667.6356201171875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 862.6666870117188,
+            "screenY": 1100.666748046875
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 199.11460876464844,
+            "clientY": 667.6356201171875,
+            "force": 1,
+            "pageX": 199.11460876464844,
+            "pageY": 667.6356201171875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 862.6666870117188,
+            "screenY": 1100.666748046875
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 13666,
+      "waitfor": 2,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "/view[5]/view[3]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 178.9062957763672,
+            "clientY": 389.52093505859375,
+            "force": 1,
+            "pageX": 178.9062957763672,
+            "pageY": 389.52093505859375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 842.6666870117188,
+            "screenY": 825.3333740234375
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 178.9062957763672,
+            "clientY": 389.52093505859375,
+            "force": 1,
+            "pageX": 178.9062957763672,
+            "pageY": 389.52093505859375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 842.6666870117188,
+            "screenY": 825.3333740234375
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[5]/view[3]/image"
+      ],
+      "timeStamp": 16168,
+      "waitfor": 2502,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "/view[5]/view[3]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 178.9062957763672,
+            "clientY": 389.52093505859375,
+            "pageX": 178.9062957763672,
+            "pageY": 389.52093505859375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 842.6666870117188,
+            "screenY": 825.3333740234375
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "/view[5]/view[3]/image"
+      ],
+      "timeStamp": 16230,
+      "waitfor": 62,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "/view[5]/view[3]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 178.9062957763672,
+          "y": 389.52093505859375
+        },
+        "changedTouches": [
+          {
+            "clientX": 178.9062957763672,
+            "clientY": 389.52093505859375,
+            "force": 1,
+            "pageX": 178.9062957763672,
+            "pageY": 389.52093505859375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 842.6666870117188,
+            "screenY": 825.3333740234375
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 178.9062957763672,
+            "clientY": 389.52093505859375,
+            "force": 1,
+            "pageX": 178.9062957763672,
+            "pageY": 389.52093505859375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 842.6666870117188,
+            "screenY": 825.3333740234375
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[5]/view[3]/image"
+      ],
+      "timeStamp": 16233,
+      "waitfor": 3,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "/view[5]/view[4]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 259.71881103515625,
+            "clientY": 386.1563720703125,
+            "force": 1,
+            "pageX": 259.71881103515625,
+            "pageY": 386.1563720703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 922.6666870117188,
+            "screenY": 822
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 259.71881103515625,
+            "clientY": 386.1563720703125,
+            "force": 1,
+            "pageX": 259.71881103515625,
+            "pageY": 386.1563720703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 922.6666870117188,
+            "screenY": 822
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[5]/view[4]/image"
+      ],
+      "timeStamp": 16585,
+      "waitfor": 352,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "/view[5]/view[4]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 259.71881103515625,
+            "clientY": 386.1563720703125,
+            "pageX": 259.71881103515625,
+            "pageY": 386.1563720703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 922.6666870117188,
+            "screenY": 822
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "/view[5]/view[4]/image"
+      ],
+      "timeStamp": 16647,
+      "waitfor": 62,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "/view[5]/view[4]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 259.71881103515625,
+          "y": 386.1563720703125
+        },
+        "changedTouches": [
+          {
+            "clientX": 259.71881103515625,
+            "clientY": 386.1563720703125,
+            "force": 1,
+            "pageX": 259.71881103515625,
+            "pageY": 386.1563720703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 922.6666870117188,
+            "screenY": 822
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 259.71881103515625,
+            "clientY": 386.1563720703125,
+            "force": 1,
+            "pageX": 259.71881103515625,
+            "pageY": 386.1563720703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 922.6666870117188,
+            "screenY": 822
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[5]/view[4]/image"
+      ],
+      "timeStamp": 16650,
+      "waitfor": 3,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "/view[5]/view[5]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 330.4271240234375,
+            "clientY": 394.2293395996094,
+            "force": 1,
+            "pageX": 330.4271240234375,
+            "pageY": 394.2293395996094,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 992.6666870117188,
+            "screenY": 830
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 330.4271240234375,
+            "clientY": 394.2293395996094,
+            "force": 1,
+            "pageX": 330.4271240234375,
+            "pageY": 394.2293395996094,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 992.6666870117188,
+            "screenY": 830
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[5]/view[5]/image"
+      ],
+      "timeStamp": 17028,
+      "waitfor": 378,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "/view[5]/view[5]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 330.4271240234375,
+            "clientY": 394.2293395996094,
+            "pageX": 330.4271240234375,
+            "pageY": 394.2293395996094,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 992.6666870117188,
+            "screenY": 830
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "/view[5]/view[5]/image"
+      ],
+      "timeStamp": 17101,
+      "waitfor": 73,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "/view[5]/view[5]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 330.4271240234375,
+          "y": 394.2293395996094
+        },
+        "changedTouches": [
+          {
+            "clientX": 330.4271240234375,
+            "clientY": 394.2293395996094,
+            "force": 1,
+            "pageX": 330.4271240234375,
+            "pageY": 394.2293395996094,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 992.6666870117188,
+            "screenY": 830
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 330.4271240234375,
+            "clientY": 394.2293395996094,
+            "force": 1,
+            "pageX": 330.4271240234375,
+            "pageY": 394.2293395996094,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 992.6666870117188,
+            "screenY": 830
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[5]/view[5]/image"
+      ],
+      "timeStamp": 17104,
+      "waitfor": 3,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "/view[5]/view[2]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 118.30210876464844,
+            "clientY": 396.2501220703125,
+            "force": 1,
+            "pageX": 118.30210876464844,
+            "pageY": 396.2501220703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 782.6666870117188,
+            "screenY": 832
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 118.30210876464844,
+            "clientY": 396.2501220703125,
+            "force": 1,
+            "pageX": 118.30210876464844,
+            "pageY": 396.2501220703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 782.6666870117188,
+            "screenY": 832
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[5]/view[2]/image"
+      ],
+      "timeStamp": 17569,
+      "waitfor": 465,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "/view[5]/view[2]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 118.30210876464844,
+            "clientY": 396.2501220703125,
+            "pageX": 118.30210876464844,
+            "pageY": 396.2501220703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 782.6666870117188,
+            "screenY": 832
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "/view[5]/view[2]/image"
+      ],
+      "timeStamp": 17637,
+      "waitfor": 68,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "/view[5]/view[2]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 118.30210876464844,
+          "y": 396.2501220703125
+        },
+        "changedTouches": [
+          {
+            "clientX": 118.30210876464844,
+            "clientY": 396.2501220703125,
+            "force": 1,
+            "pageX": 118.30210876464844,
+            "pageY": 396.2501220703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 782.6666870117188,
+            "screenY": 832
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 118.30210876464844,
+            "clientY": 396.2501220703125,
+            "force": 1,
+            "pageX": 118.30210876464844,
+            "pageY": 396.2501220703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 782.6666870117188,
+            "screenY": 832
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[5]/view[2]/image"
+      ],
+      "timeStamp": 17639,
+      "waitfor": 2,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 195.7396240234375,
+            "clientY": 656.86474609375,
+            "force": 1,
+            "pageX": 195.7396240234375,
+            "pageY": 656.86474609375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 859.3333740234375,
+            "screenY": 1090
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 195.7396240234375,
+            "clientY": 656.86474609375,
+            "force": 1,
+            "pageX": 195.7396240234375,
+            "pageY": 656.86474609375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 859.3333740234375,
+            "screenY": 1090
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 18401,
+      "waitfor": 762,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 195.7396240234375,
+            "clientY": 656.86474609375,
+            "pageX": 195.7396240234375,
+            "pageY": 656.86474609375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 859.3333740234375,
+            "screenY": 1090
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 18500,
+      "waitfor": 99,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 195.7396240234375,
+          "y": 656.86474609375
+        },
+        "changedTouches": [
+          {
+            "clientX": 195.7396240234375,
+            "clientY": 656.86474609375,
+            "force": 1,
+            "pageX": 195.7396240234375,
+            "pageY": 656.86474609375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 859.3333740234375,
+            "screenY": 1090
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 195.7396240234375,
+            "clientY": 656.86474609375,
+            "force": 1,
+            "pageX": 195.7396240234375,
+            "pageY": 656.86474609375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 859.3333740234375,
+            "screenY": 1090
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 18502,
+      "waitfor": 2,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 191.7083740234375,
+            "clientY": 658.20849609375,
+            "force": 1,
+            "pageX": 191.7083740234375,
+            "pageY": 658.20849609375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 855.3333740234375,
+            "screenY": 1091.3333740234375
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 191.7083740234375,
+            "clientY": 658.20849609375,
+            "force": 1,
+            "pageX": 191.7083740234375,
+            "pageY": 658.20849609375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 855.3333740234375,
+            "screenY": 1091.3333740234375
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 20058,
+      "waitfor": 1556,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 191.7083740234375,
+            "clientY": 658.20849609375,
+            "pageX": 191.7083740234375,
+            "pageY": 658.20849609375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 855.3333740234375,
+            "screenY": 1091.3333740234375
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 20159,
+      "waitfor": 101,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 191.7083740234375,
+          "y": 658.20849609375
+        },
+        "changedTouches": [
+          {
+            "clientX": 191.7083740234375,
+            "clientY": 658.20849609375,
+            "force": 1,
+            "pageX": 191.7083740234375,
+            "pageY": 658.20849609375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 855.3333740234375,
+            "screenY": 1091.3333740234375
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 191.7083740234375,
+            "clientY": 658.20849609375,
+            "force": 1,
+            "pageX": 191.7083740234375,
+            "pageY": 658.20849609375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 855.3333740234375,
+            "screenY": 1091.3333740234375
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 20162,
+      "waitfor": 3,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "/view[5]/view[2]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 110.89585876464844,
+            "clientY": 398.947998046875,
+            "force": 1,
+            "pageX": 110.89585876464844,
+            "pageY": 398.947998046875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 775.3333740234375,
+            "screenY": 834.6666870117188
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 110.89585876464844,
+            "clientY": 398.947998046875,
+            "force": 1,
+            "pageX": 110.89585876464844,
+            "pageY": 398.947998046875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 775.3333740234375,
+            "screenY": 834.6666870117188
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[5]/view[2]/image"
+      ],
+      "timeStamp": 21361,
+      "waitfor": 1199,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "/view[5]/view[2]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 110.89585876464844,
+            "clientY": 398.947998046875,
+            "pageX": 110.89585876464844,
+            "pageY": 398.947998046875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 775.3333740234375,
+            "screenY": 834.6666870117188
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "/view[5]/view[2]/image"
+      ],
+      "timeStamp": 21431,
+      "waitfor": 70,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "/view[5]/view[2]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 110.89585876464844,
+          "y": 398.947998046875
+        },
+        "changedTouches": [
+          {
+            "clientX": 110.89585876464844,
+            "clientY": 398.947998046875,
+            "force": 1,
+            "pageX": 110.89585876464844,
+            "pageY": 398.947998046875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 775.3333740234375,
+            "screenY": 834.6666870117188
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 110.89585876464844,
+            "clientY": 398.947998046875,
+            "force": 1,
+            "pageX": 110.89585876464844,
+            "pageY": 398.947998046875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 775.3333740234375,
+            "screenY": 834.6666870117188
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[5]/view[2]/image"
+      ],
+      "timeStamp": 21434,
+      "waitfor": 3,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "/view[5]/view[1]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 46.25000762939453,
+            "clientY": 394.9063720703125,
+            "force": 1,
+            "pageX": 46.25000762939453,
+            "pageY": 394.9063720703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 711.3333740234375,
+            "screenY": 830.6666870117188
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 46.25000762939453,
+            "clientY": 394.9063720703125,
+            "force": 1,
+            "pageX": 46.25000762939453,
+            "pageY": 394.9063720703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 711.3333740234375,
+            "screenY": 830.6666870117188
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[5]/view[1]/image"
+      ],
+      "timeStamp": 22000,
+      "waitfor": 566,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "/view[5]/view[1]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 46.25000762939453,
+            "clientY": 394.9063720703125,
+            "pageX": 46.25000762939453,
+            "pageY": 394.9063720703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 711.3333740234375,
+            "screenY": 830.6666870117188
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "/view[5]/view[1]/image"
+      ],
+      "timeStamp": 22090,
+      "waitfor": 90,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "/view[5]/view[1]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 46.25000762939453,
+          "y": 394.9063720703125
+        },
+        "changedTouches": [
+          {
+            "clientX": 46.25000762939453,
+            "clientY": 394.9063720703125,
+            "force": 1,
+            "pageX": 46.25000762939453,
+            "pageY": 394.9063720703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 711.3333740234375,
+            "screenY": 830.6666870117188
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 46.25000762939453,
+            "clientY": 394.9063720703125,
+            "force": 1,
+            "pageX": 46.25000762939453,
+            "pageY": 394.9063720703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 711.3333740234375,
+            "screenY": 830.6666870117188
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[5]/view[1]/image"
+      ],
+      "timeStamp": 22093,
+      "waitfor": 3,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 193.0521240234375,
+            "clientY": 665.6148681640625,
+            "force": 1,
+            "pageX": 193.0521240234375,
+            "pageY": 665.6148681640625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 856.6666870117188,
+            "screenY": 1098.666748046875
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 193.0521240234375,
+            "clientY": 665.6148681640625,
+            "force": 1,
+            "pageX": 193.0521240234375,
+            "pageY": 665.6148681640625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 856.6666870117188,
+            "screenY": 1098.666748046875
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 23251,
+      "waitfor": 1158,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 193.0521240234375,
+            "clientY": 665.6148681640625,
+            "pageX": 193.0521240234375,
+            "pageY": 665.6148681640625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 856.6666870117188,
+            "screenY": 1098.666748046875
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 23351,
+      "waitfor": 100,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 193.0521240234375,
+          "y": 665.6148681640625
+        },
+        "changedTouches": [
+          {
+            "clientX": 193.0521240234375,
+            "clientY": 665.6148681640625,
+            "force": 1,
+            "pageX": 193.0521240234375,
+            "pageY": 665.6148681640625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 856.6666870117188,
+            "screenY": 1098.666748046875
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 193.0521240234375,
+            "clientY": 665.6148681640625,
+            "force": 1,
+            "pageX": 193.0521240234375,
+            "pageY": 665.6148681640625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 856.6666870117188,
+            "screenY": 1098.666748046875
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 23354,
+      "waitfor": 3,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 193.0521240234375,
+            "clientY": 665.6148681640625,
+            "force": 1,
+            "pageX": 193.0521240234375,
+            "pageY": 665.6148681640625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 856.6666870117188,
+            "screenY": 1098.666748046875
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 193.0521240234375,
+            "clientY": 665.6148681640625,
+            "force": 1,
+            "pageX": 193.0521240234375,
+            "pageY": 665.6148681640625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 856.6666870117188,
+            "screenY": 1098.666748046875
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 23965,
+      "waitfor": 611,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 193.0521240234375,
+            "clientY": 665.6148681640625,
+            "pageX": 193.0521240234375,
+            "pageY": 665.6148681640625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 856.6666870117188,
+            "screenY": 1098.666748046875
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 24051,
+      "waitfor": 86,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 193.0521240234375,
+          "y": 665.6148681640625
+        },
+        "changedTouches": [
+          {
+            "clientX": 193.0521240234375,
+            "clientY": 665.6148681640625,
+            "force": 1,
+            "pageX": 193.0521240234375,
+            "pageY": 665.6148681640625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 856.6666870117188,
+            "screenY": 1098.666748046875
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 193.0521240234375,
+            "clientY": 665.6148681640625,
+            "force": 1,
+            "pageX": 193.0521240234375,
+            "pageY": 665.6148681640625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 856.6666870117188,
+            "screenY": 1098.666748046875
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 24054,
+      "waitfor": 3,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "/view[5]/view[3]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 194.39585876464844,
+            "clientY": 386.822998046875,
+            "force": 1,
+            "pageX": 194.39585876464844,
+            "pageY": 386.822998046875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 858,
+            "screenY": 822.6666870117188
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 194.39585876464844,
+            "clientY": 386.822998046875,
+            "force": 1,
+            "pageX": 194.39585876464844,
+            "pageY": 386.822998046875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 858,
+            "screenY": 822.6666870117188
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[5]/view[3]/image"
+      ],
+      "timeStamp": 25420,
+      "waitfor": 1366,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "/view[5]/view[3]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 194.39585876464844,
+            "clientY": 386.822998046875,
+            "pageX": 194.39585876464844,
+            "pageY": 386.822998046875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 858,
+            "screenY": 822.6666870117188
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "/view[5]/view[3]/image"
+      ],
+      "timeStamp": 25532,
+      "waitfor": 112,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "/view[5]/view[3]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 194.39585876464844,
+          "y": 386.822998046875
+        },
+        "changedTouches": [
+          {
+            "clientX": 194.39585876464844,
+            "clientY": 386.822998046875,
+            "force": 1,
+            "pageX": 194.39585876464844,
+            "pageY": 386.822998046875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 858,
+            "screenY": 822.6666870117188
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 194.39585876464844,
+            "clientY": 386.822998046875,
+            "force": 1,
+            "pageX": 194.39585876464844,
+            "pageY": 386.822998046875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 858,
+            "screenY": 822.6666870117188
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[5]/view[3]/image"
+      ],
+      "timeStamp": 25534,
+      "waitfor": 2,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "/view[5]/view[4]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 259.041748046875,
+            "clientY": 386.1563720703125,
+            "force": 1,
+            "pageX": 259.041748046875,
+            "pageY": 386.1563720703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 922,
+            "screenY": 822
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 259.041748046875,
+            "clientY": 386.1563720703125,
+            "force": 1,
+            "pageX": 259.041748046875,
+            "pageY": 386.1563720703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 922,
+            "screenY": 822
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[5]/view[4]/image"
+      ],
+      "timeStamp": 25961,
+      "waitfor": 427,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "/view[5]/view[4]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 259.041748046875,
+            "clientY": 386.1563720703125,
+            "pageX": 259.041748046875,
+            "pageY": 386.1563720703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 922,
+            "screenY": 822
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "/view[5]/view[4]/image"
+      ],
+      "timeStamp": 26030,
+      "waitfor": 69,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "/view[5]/view[4]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 259.041748046875,
+          "y": 386.1563720703125
+        },
+        "changedTouches": [
+          {
+            "clientX": 259.041748046875,
+            "clientY": 386.1563720703125,
+            "force": 1,
+            "pageX": 259.041748046875,
+            "pageY": 386.1563720703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 922,
+            "screenY": 822
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 259.041748046875,
+            "clientY": 386.1563720703125,
+            "force": 1,
+            "pageX": 259.041748046875,
+            "pageY": 386.1563720703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 922,
+            "screenY": 822
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[5]/view[4]/image"
+      ],
+      "timeStamp": 26033,
+      "waitfor": 3,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "/view[5]/view[1]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 40.864593505859375,
+            "clientY": 396.2501220703125,
+            "force": 1,
+            "pageX": 40.864593505859375,
+            "pageY": 396.2501220703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 706,
+            "screenY": 832
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 40.864593505859375,
+            "clientY": 396.2501220703125,
+            "force": 1,
+            "pageX": 40.864593505859375,
+            "pageY": 396.2501220703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 706,
+            "screenY": 832
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[5]/view[1]/image"
+      ],
+      "timeStamp": 26758,
+      "waitfor": 725,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "/view[5]/view[1]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 40.864593505859375,
+            "clientY": 396.2501220703125,
+            "pageX": 40.864593505859375,
+            "pageY": 396.2501220703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 706,
+            "screenY": 832
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "/view[5]/view[1]/image"
+      ],
+      "timeStamp": 26835,
+      "waitfor": 77,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "/view[5]/view[1]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 40.864593505859375,
+          "y": 396.2501220703125
+        },
+        "changedTouches": [
+          {
+            "clientX": 40.864593505859375,
+            "clientY": 396.2501220703125,
+            "force": 1,
+            "pageX": 40.864593505859375,
+            "pageY": 396.2501220703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 706,
+            "screenY": 832
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 40.864593505859375,
+            "clientY": 396.2501220703125,
+            "force": 1,
+            "pageX": 40.864593505859375,
+            "pageY": 396.2501220703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 706,
+            "screenY": 832
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[5]/view[1]/image"
+      ],
+      "timeStamp": 26839,
+      "waitfor": 4,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "/view[5]/view[2]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 117.62503051757812,
+            "clientY": 399.6251220703125,
+            "force": 1,
+            "pageX": 117.62503051757812,
+            "pageY": 399.6251220703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 782,
+            "screenY": 835.3333740234375
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 117.62503051757812,
+            "clientY": 399.6251220703125,
+            "force": 1,
+            "pageX": 117.62503051757812,
+            "pageY": 399.6251220703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 782,
+            "screenY": 835.3333740234375
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[5]/view[2]/image"
+      ],
+      "timeStamp": 27211,
+      "waitfor": 372,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "/view[5]/view[2]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 117.62503051757812,
+            "clientY": 399.6251220703125,
+            "pageX": 117.62503051757812,
+            "pageY": 399.6251220703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 782,
+            "screenY": 835.3333740234375
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "/view[5]/view[2]/image"
+      ],
+      "timeStamp": 27258,
+      "waitfor": 47,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "/view[5]/view[2]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 117.62503051757812,
+          "y": 399.6251220703125
+        },
+        "changedTouches": [
+          {
+            "clientX": 117.62503051757812,
+            "clientY": 399.6251220703125,
+            "force": 1,
+            "pageX": 117.62503051757812,
+            "pageY": 399.6251220703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 782,
+            "screenY": 835.3333740234375
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 117.62503051757812,
+            "clientY": 399.6251220703125,
+            "force": 1,
+            "pageX": 117.62503051757812,
+            "pageY": 399.6251220703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 782,
+            "screenY": 835.3333740234375
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[5]/view[2]/image"
+      ],
+      "timeStamp": 27261,
+      "waitfor": 3,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 191.0312957763672,
+            "clientY": 678.4063720703125,
+            "force": 1,
+            "pageX": 191.0312957763672,
+            "pageY": 678.4063720703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 854.6666870117188,
+            "screenY": 1111.3333740234375
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 191.0312957763672,
+            "clientY": 678.4063720703125,
+            "force": 1,
+            "pageX": 191.0312957763672,
+            "pageY": 678.4063720703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 854.6666870117188,
+            "screenY": 1111.3333740234375
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 27846,
+      "waitfor": 585,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 191.0312957763672,
+            "clientY": 678.4063720703125,
+            "pageX": 191.0312957763672,
+            "pageY": 678.4063720703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 854.6666870117188,
+            "screenY": 1111.3333740234375
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 27931,
+      "waitfor": 85,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 191.0312957763672,
+          "y": 678.4063720703125
+        },
+        "changedTouches": [
+          {
+            "clientX": 191.0312957763672,
+            "clientY": 678.4063720703125,
+            "force": 1,
+            "pageX": 191.0312957763672,
+            "pageY": 678.4063720703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 854.6666870117188,
+            "screenY": 1111.3333740234375
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 191.0312957763672,
+            "clientY": 678.4063720703125,
+            "force": 1,
+            "pageX": 191.0312957763672,
+            "pageY": 678.4063720703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 854.6666870117188,
+            "screenY": 1111.3333740234375
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 27935,
+      "waitfor": 4,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 191.0312957763672,
+            "clientY": 678.4063720703125,
+            "force": 1,
+            "pageX": 191.0312957763672,
+            "pageY": 678.4063720703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 854.6666870117188,
+            "screenY": 1111.3333740234375
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 191.0312957763672,
+            "clientY": 678.4063720703125,
+            "force": 1,
+            "pageX": 191.0312957763672,
+            "pageY": 678.4063720703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 854.6666870117188,
+            "screenY": 1111.3333740234375
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 28836,
+      "waitfor": 901,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 191.0312957763672,
+            "clientY": 678.4063720703125,
+            "pageX": 191.0312957763672,
+            "pageY": 678.4063720703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 854.6666870117188,
+            "screenY": 1111.3333740234375
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 28921,
+      "waitfor": 85,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 191.0312957763672,
+          "y": 678.4063720703125
+        },
+        "changedTouches": [
+          {
+            "clientX": 191.0312957763672,
+            "clientY": 678.4063720703125,
+            "force": 1,
+            "pageX": 191.0312957763672,
+            "pageY": 678.4063720703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 854.6666870117188,
+            "screenY": 1111.3333740234375
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 191.0312957763672,
+            "clientY": 678.4063720703125,
+            "force": 1,
+            "pageX": 191.0312957763672,
+            "pageY": 678.4063720703125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 854.6666870117188,
+            "screenY": 1111.3333740234375
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 28924,
+      "waitfor": 3,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "/view[5]/view[1]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 27.39583969116211,
+            "clientY": 409.05218505859375,
+            "force": 1,
+            "pageX": 27.39583969116211,
+            "pageY": 409.05218505859375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 692.6666870117188,
+            "screenY": 844.6666870117188
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 27.39583969116211,
+            "clientY": 409.05218505859375,
+            "force": 1,
+            "pageX": 27.39583969116211,
+            "pageY": 409.05218505859375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 692.6666870117188,
+            "screenY": 844.6666870117188
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[5]/view[1]/image"
+      ],
+      "timeStamp": 30087,
+      "waitfor": 1163,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "/view[5]/view[1]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 27.39583969116211,
+            "clientY": 409.05218505859375,
+            "pageX": 27.39583969116211,
+            "pageY": 409.05218505859375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 692.6666870117188,
+            "screenY": 844.6666870117188
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "/view[5]/view[1]/image"
+      ],
+      "timeStamp": 30150,
+      "waitfor": 63,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "/view[5]/view[1]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 27.39583969116211,
+          "y": 409.05218505859375
+        },
+        "changedTouches": [
+          {
+            "clientX": 27.39583969116211,
+            "clientY": 409.05218505859375,
+            "force": 1,
+            "pageX": 27.39583969116211,
+            "pageY": 409.05218505859375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 692.6666870117188,
+            "screenY": 844.6666870117188
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 27.39583969116211,
+            "clientY": 409.05218505859375,
+            "force": 1,
+            "pageX": 27.39583969116211,
+            "pageY": 409.05218505859375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 692.6666870117188,
+            "screenY": 844.6666870117188
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[5]/view[1]/image"
+      ],
+      "timeStamp": 30153,
+      "waitfor": 3,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "image.reset",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 44.9062614440918,
+            "clientY": 687.8334350585938,
+            "force": 1,
+            "pageX": 44.9062614440918,
+            "pageY": 687.8334350585938,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 710,
+            "screenY": 1120.666748046875
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 44.9062614440918,
+            "clientY": 687.8334350585938,
+            "force": 1,
+            "pageX": 44.9062614440918,
+            "pageY": 687.8334350585938,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 710,
+            "screenY": 1120.666748046875
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.reset",
+        ".reset",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 30953,
+      "waitfor": 800,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "image.reset",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 44.9062614440918,
+            "clientY": 687.8334350585938,
+            "pageX": 44.9062614440918,
+            "pageY": 687.8334350585938,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 710,
+            "screenY": 1120.666748046875
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "image.reset",
+        ".reset",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 31005,
+      "waitfor": 52,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "image.reset",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 44.9062614440918,
+          "y": 687.8334350585938
+        },
+        "changedTouches": [
+          {
+            "clientX": 44.9062614440918,
+            "clientY": 687.8334350585938,
+            "force": 1,
+            "pageX": 44.9062614440918,
+            "pageY": 687.8334350585938,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 710,
+            "screenY": 1120.666748046875
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 44.9062614440918,
+            "clientY": 687.8334350585938,
+            "force": 1,
+            "pageX": 44.9062614440918,
+            "pageY": 687.8334350585938,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 710,
+            "screenY": 1120.666748046875
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.reset",
+        ".reset",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 31009,
+      "waitfor": 4,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 175.54171752929688,
+            "clientY": 668.3126831054688,
+            "force": 1,
+            "pageX": 175.54171752929688,
+            "pageY": 668.3126831054688,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 839.3333740234375,
+            "screenY": 1101.3333740234375
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 175.54171752929688,
+            "clientY": 668.3126831054688,
+            "force": 1,
+            "pageX": 175.54171752929688,
+            "pageY": 668.3126831054688,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 839.3333740234375,
+            "screenY": 1101.3333740234375
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 32008,
+      "waitfor": 999,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 175.54171752929688,
+            "clientY": 668.3126831054688,
+            "pageX": 175.54171752929688,
+            "pageY": 668.3126831054688,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 839.3333740234375,
+            "screenY": 1101.3333740234375
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 32078,
+      "waitfor": 70,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 175.54171752929688,
+          "y": 668.3126831054688
+        },
+        "changedTouches": [
+          {
+            "clientX": 175.54171752929688,
+            "clientY": 668.3126831054688,
+            "force": 1,
+            "pageX": 175.54171752929688,
+            "pageY": 668.3126831054688,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 839.3333740234375,
+            "screenY": 1101.3333740234375
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 175.54171752929688,
+            "clientY": 668.3126831054688,
+            "force": 1,
+            "pageX": 175.54171752929688,
+            "pageY": 668.3126831054688,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 839.3333740234375,
+            "screenY": 1101.3333740234375
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 32082,
+      "waitfor": 4,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "/view[5]/view[4]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 258.37506103515625,
+            "clientY": 388.17718505859375,
+            "force": 1,
+            "pageX": 258.37506103515625,
+            "pageY": 388.17718505859375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 921.3333740234375,
+            "screenY": 824
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 258.37506103515625,
+            "clientY": 388.17718505859375,
+            "force": 1,
+            "pageX": 258.37506103515625,
+            "pageY": 388.17718505859375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 921.3333740234375,
+            "screenY": 824
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[5]/view[4]/image"
+      ],
+      "timeStamp": 34702,
+      "waitfor": 2620,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "/view[5]/view[4]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 258.37506103515625,
+            "clientY": 388.17718505859375,
+            "pageX": 258.37506103515625,
+            "pageY": 388.17718505859375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 921.3333740234375,
+            "screenY": 824
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "/view[5]/view[4]/image"
+      ],
+      "timeStamp": 34771,
+      "waitfor": 69,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "/view[5]/view[4]/image",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 258.37506103515625,
+          "y": 388.17718505859375
+        },
+        "changedTouches": [
+          {
+            "clientX": 258.37506103515625,
+            "clientY": 388.17718505859375,
+            "force": 1,
+            "pageX": 258.37506103515625,
+            "pageY": 388.17718505859375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 921.3333740234375,
+            "screenY": 824
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 258.37506103515625,
+            "clientY": 388.17718505859375,
+            "force": 1,
+            "pageX": 258.37506103515625,
+            "pageY": 388.17718505859375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 921.3333740234375,
+            "screenY": 824
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[5]/view[4]/image"
+      ],
+      "timeStamp": 34774,
+      "waitfor": 3,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 195.07296752929688,
+            "clientY": 664.2711181640625,
+            "force": 1,
+            "pageX": 195.07296752929688,
+            "pageY": 664.2711181640625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 858.6666870117188,
+            "screenY": 1097.3333740234375
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 195.07296752929688,
+            "clientY": 664.2711181640625,
+            "force": 1,
+            "pageX": 195.07296752929688,
+            "pageY": 664.2711181640625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 858.6666870117188,
+            "screenY": 1097.3333740234375
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 35516,
+      "waitfor": 742,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 195.07296752929688,
+            "clientY": 664.2711181640625,
+            "pageX": 195.07296752929688,
+            "pageY": 664.2711181640625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 858.6666870117188,
+            "screenY": 1097.3333740234375
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 35599,
+      "waitfor": 83,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 195.07296752929688,
+          "y": 664.2711181640625
+        },
+        "changedTouches": [
+          {
+            "clientX": 195.07296752929688,
+            "clientY": 664.2711181640625,
+            "force": 1,
+            "pageX": 195.07296752929688,
+            "pageY": 664.2711181640625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 858.6666870117188,
+            "screenY": 1097.3333740234375
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 195.07296752929688,
+            "clientY": 664.2711181640625,
+            "force": 1,
+            "pageX": 195.07296752929688,
+            "pageY": 664.2711181640625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 858.6666870117188,
+            "screenY": 1097.3333740234375
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 35603,
+      "waitfor": 4,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 195.07296752929688,
+            "clientY": 664.2711181640625,
+            "force": 1,
+            "pageX": 195.07296752929688,
+            "pageY": 664.2711181640625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 858.6666870117188,
+            "screenY": 1097.3333740234375
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 195.07296752929688,
+            "clientY": 664.2711181640625,
+            "force": 1,
+            "pageX": 195.07296752929688,
+            "pageY": 664.2711181640625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 858.6666870117188,
+            "screenY": 1097.3333740234375
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 36365,
+      "waitfor": 762,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 195.07296752929688,
+            "clientY": 664.2711181640625,
+            "pageX": 195.07296752929688,
+            "pageY": 664.2711181640625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 858.6666870117188,
+            "screenY": 1097.3333740234375
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 36467,
+      "waitfor": 102,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 195.07296752929688,
+          "y": 664.2711181640625
+        },
+        "changedTouches": [
+          {
+            "clientX": 195.07296752929688,
+            "clientY": 664.2711181640625,
+            "force": 1,
+            "pageX": 195.07296752929688,
+            "pageY": 664.2711181640625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 858.6666870117188,
+            "screenY": 1097.3333740234375
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 195.07296752929688,
+            "clientY": 664.2711181640625,
+            "force": 1,
+            "pageX": 195.07296752929688,
+            "pageY": 664.2711181640625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 858.6666870117188,
+            "screenY": 1097.3333740234375
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 36472,
+      "waitfor": 5,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 212.5833740234375,
+            "clientY": 675.0418701171875,
+            "force": 1,
+            "pageX": 212.5833740234375,
+            "pageY": 675.0418701171875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 876,
+            "screenY": 1108
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 212.5833740234375,
+            "clientY": 675.0418701171875,
+            "force": 1,
+            "pageX": 212.5833740234375,
+            "pageY": 675.0418701171875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 876,
+            "screenY": 1108
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 39647,
+      "waitfor": 3175,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 212.5833740234375,
+            "clientY": 675.0418701171875,
+            "pageX": 212.5833740234375,
+            "pageY": 675.0418701171875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 876,
+            "screenY": 1108
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 39700,
+      "waitfor": 53,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 212.5833740234375,
+          "y": 675.0418701171875
+        },
+        "changedTouches": [
+          {
+            "clientX": 212.5833740234375,
+            "clientY": 675.0418701171875,
+            "force": 1,
+            "pageX": 212.5833740234375,
+            "pageY": 675.0418701171875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 876,
+            "screenY": 1108
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 212.5833740234375,
+            "clientY": 675.0418701171875,
+            "force": 1,
+            "pageX": 212.5833740234375,
+            "pageY": 675.0418701171875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 876,
+            "screenY": 1108
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 39704,
+      "waitfor": 4,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "image.reset",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 61.06251525878906,
+            "clientY": 689.1876831054688,
+            "force": 1,
+            "pageX": 61.06251525878906,
+            "pageY": 689.1876831054688,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 726,
+            "screenY": 1122
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 61.06251525878906,
+            "clientY": 689.1876831054688,
+            "force": 1,
+            "pageX": 61.06251525878906,
+            "pageY": 689.1876831054688,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 726,
+            "screenY": 1122
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.reset",
+        ".reset",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 41419,
+      "waitfor": 1715,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "image.reset",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 60.058929443359375,
+            "clientY": 689.1044311523438,
+            "pageX": 60.058929443359375,
+            "pageY": 689.1044311523438,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 725.3333740234375,
+            "screenY": 1122
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "image.reset",
+        ".reset",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 41487,
+      "waitfor": 68,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "image.reset",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 60.058929443359375,
+          "y": 689.1044311523438
+        },
+        "changedTouches": [
+          {
+            "clientX": 61.06251525878906,
+            "clientY": 689.1876831054688,
+            "force": 1,
+            "pageX": 61.06251525878906,
+            "pageY": 689.1876831054688,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 726,
+            "screenY": 1122
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 61.06251525878906,
+            "clientY": 689.1876831054688,
+            "force": 1,
+            "pageX": 61.06251525878906,
+            "pageY": 689.1876831054688,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 726,
+            "screenY": 1122
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.reset",
+        ".reset",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 41492,
+      "waitfor": 5,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 199.11460876464844,
+            "clientY": 660.229248046875,
+            "force": 1,
+            "pageX": 199.11460876464844,
+            "pageY": 660.229248046875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 862.6666870117188,
+            "screenY": 1093.3333740234375
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 199.11460876464844,
+            "clientY": 660.229248046875,
+            "force": 1,
+            "pageX": 199.11460876464844,
+            "pageY": 660.229248046875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 862.6666870117188,
+            "screenY": 1093.3333740234375
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 42302,
+      "waitfor": 810,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 199.11460876464844,
+            "clientY": 660.229248046875,
+            "pageX": 199.11460876464844,
+            "pageY": 660.229248046875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 862.6666870117188,
+            "screenY": 1093.3333740234375
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 42372,
+      "waitfor": 70,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 199.11460876464844,
+          "y": 660.229248046875
+        },
+        "changedTouches": [
+          {
+            "clientX": 199.11460876464844,
+            "clientY": 660.229248046875,
+            "force": 1,
+            "pageX": 199.11460876464844,
+            "pageY": 660.229248046875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 862.6666870117188,
+            "screenY": 1093.3333740234375
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 199.11460876464844,
+            "clientY": 660.229248046875,
+            "force": 1,
+            "pageX": 199.11460876464844,
+            "pageY": 660.229248046875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 862.6666870117188,
+            "screenY": 1093.3333740234375
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 42376,
+      "waitfor": 4,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 199.11460876464844,
+            "clientY": 660.229248046875,
+            "force": 1,
+            "pageX": 199.11460876464844,
+            "pageY": 660.229248046875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 862.6666870117188,
+            "screenY": 1093.3333740234375
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 199.11460876464844,
+            "clientY": 660.229248046875,
+            "force": 1,
+            "pageX": 199.11460876464844,
+            "pageY": 660.229248046875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 862.6666870117188,
+            "screenY": 1093.3333740234375
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 44323,
+      "waitfor": 1947,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 199.11460876464844,
+            "clientY": 660.229248046875,
+            "pageX": 199.11460876464844,
+            "pageY": 660.229248046875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 862.6666870117188,
+            "screenY": 1093.3333740234375
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 44459,
+      "waitfor": 136,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 199.11460876464844,
+          "y": 660.229248046875
+        },
+        "changedTouches": [
+          {
+            "clientX": 199.11460876464844,
+            "clientY": 660.229248046875,
+            "force": 1,
+            "pageX": 199.11460876464844,
+            "pageY": 660.229248046875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 862.6666870117188,
+            "screenY": 1093.3333740234375
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 199.11460876464844,
+            "clientY": 660.229248046875,
+            "force": 1,
+            "pageX": 199.11460876464844,
+            "pageY": 660.229248046875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 862.6666870117188,
+            "screenY": 1093.3333740234375
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 44464,
+      "waitfor": 5,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "image.reset",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 56.35417938232422,
+            "clientY": 693.89599609375,
+            "force": 1,
+            "pageX": 56.35417938232422,
+            "pageY": 693.89599609375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 721.3333740234375,
+            "screenY": 1126.666748046875
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 56.35417938232422,
+            "clientY": 693.89599609375,
+            "force": 1,
+            "pageX": 56.35417938232422,
+            "pageY": 693.89599609375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 721.3333740234375,
+            "screenY": 1126.666748046875
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.reset",
+        ".reset",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 45367,
+      "waitfor": 903,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "image.reset",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 56.35417938232422,
+            "clientY": 693.89599609375,
+            "pageX": 56.35417938232422,
+            "pageY": 693.89599609375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 721.3333740234375,
+            "screenY": 1126.666748046875
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "image.reset",
+        ".reset",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 45435,
+      "waitfor": 68,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "image.reset",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 56.35417938232422,
+          "y": 693.89599609375
+        },
+        "changedTouches": [
+          {
+            "clientX": 56.35417938232422,
+            "clientY": 693.89599609375,
+            "force": 1,
+            "pageX": 56.35417938232422,
+            "pageY": 693.89599609375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 721.3333740234375,
+            "screenY": 1126.666748046875
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 56.35417938232422,
+            "clientY": 693.89599609375,
+            "force": 1,
+            "pageX": 56.35417938232422,
+            "pageY": 693.89599609375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 721.3333740234375,
+            "screenY": 1126.666748046875
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.reset",
+        ".reset",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 45438,
+      "waitfor": 3,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 207.1875457763672,
+            "clientY": 667.6356201171875,
+            "force": 1,
+            "pageX": 207.1875457763672,
+            "pageY": 667.6356201171875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 870.6666870117188,
+            "screenY": 1100.666748046875
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 207.1875457763672,
+            "clientY": 667.6356201171875,
+            "force": 1,
+            "pageX": 207.1875457763672,
+            "pageY": 667.6356201171875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 870.6666870117188,
+            "screenY": 1100.666748046875
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 46271,
+      "waitfor": 833,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 207.1875457763672,
+            "clientY": 667.6356201171875,
+            "pageX": 207.1875457763672,
+            "pageY": 667.6356201171875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 870.6666870117188,
+            "screenY": 1100.666748046875
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 46341,
+      "waitfor": 70,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 207.1875457763672,
+          "y": 667.6356201171875
+        },
+        "changedTouches": [
+          {
+            "clientX": 207.1875457763672,
+            "clientY": 667.6356201171875,
+            "force": 1,
+            "pageX": 207.1875457763672,
+            "pageY": 667.6356201171875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 870.6666870117188,
+            "screenY": 1100.666748046875
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 207.1875457763672,
+            "clientY": 667.6356201171875,
+            "force": 1,
+            "pageX": 207.1875457763672,
+            "pageY": 667.6356201171875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 870.6666870117188,
+            "screenY": 1100.666748046875
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 46346,
+      "waitfor": 5,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 205.16671752929688,
+            "clientY": 668.9793701171875,
+            "force": 1,
+            "pageX": 205.16671752929688,
+            "pageY": 668.9793701171875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 868.6666870117188,
+            "screenY": 1102
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 205.16671752929688,
+            "clientY": 668.9793701171875,
+            "force": 1,
+            "pageX": 205.16671752929688,
+            "pageY": 668.9793701171875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 868.6666870117188,
+            "screenY": 1102
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 47086,
+      "waitfor": 740,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 205.16671752929688,
+            "clientY": 668.9793701171875,
+            "pageX": 205.16671752929688,
+            "pageY": 668.9793701171875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 868.6666870117188,
+            "screenY": 1102
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 47155,
+      "waitfor": 69,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "image.throw",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 205.16671752929688,
+          "y": 668.9793701171875
+        },
+        "changedTouches": [
+          {
+            "clientX": 205.16671752929688,
+            "clientY": 668.9793701171875,
+            "force": 1,
+            "pageX": 205.16671752929688,
+            "pageY": 668.9793701171875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 868.6666870117188,
+            "screenY": 1102
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 205.16671752929688,
+            "clientY": 668.9793701171875,
+            "force": 1,
+            "pageX": 205.16671752929688,
+            "pageY": 668.9793701171875,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 868.6666870117188,
+            "screenY": 1102
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.throw",
+        ".throw",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 47158,
+      "waitfor": 3,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "image.reset",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 50.29167175292969,
+            "clientY": 687.8334350585938,
+            "force": 1,
+            "pageX": 50.29167175292969,
+            "pageY": 687.8334350585938,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 715.3333740234375,
+            "screenY": 1120.666748046875
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 50.29167175292969,
+            "clientY": 687.8334350585938,
+            "force": 1,
+            "pageX": 50.29167175292969,
+            "pageY": 687.8334350585938,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 715.3333740234375,
+            "screenY": 1120.666748046875
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.reset",
+        ".reset",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 48309,
+      "waitfor": 1151,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "image.reset",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 50.29167175292969,
+            "clientY": 687.8334350585938,
+            "pageX": 50.29167175292969,
+            "pageY": 687.8334350585938,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 715.3333740234375,
+            "screenY": 1120.666748046875
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "image.reset",
+        ".reset",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 48382,
+      "waitfor": 73,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "image.reset",
+      "value": null,
+      "path": "pages/multiplayer_battle/multiplayer_battle",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 50.29167175292969,
+          "y": 687.8334350585938
+        },
+        "changedTouches": [
+          {
+            "clientX": 50.29167175292969,
+            "clientY": 687.8334350585938,
+            "force": 1,
+            "pageX": 50.29167175292969,
+            "pageY": 687.8334350585938,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 715.3333740234375,
+            "screenY": 1120.666748046875
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 50.29167175292969,
+            "clientY": 687.8334350585938,
+            "force": 1,
+            "pageX": 50.29167175292969,
+            "pageY": 687.8334350585938,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 715.3333740234375,
+            "screenY": 1120.666748046875
+          }
+        ]
+      },
+      "targetCandidates": [
+        "image.reset",
+        ".reset",
+        "/view[8]/view/image"
+      ],
+      "timeStamp": 48386,
+      "waitfor": 4,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "timeStamp": 50373,
+      "waitfor": 1987,
+      "desc": "",
+      "layer": "tool",
+      "commandType": "operate",
+      "command": "stopRecord"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<view>
+  <view>
+    <image class='background' src="{{background_pic}}" 
+ mode="aspectFill"/>
+  </view>
+
+  <view class='room'>
+    <image class='room_num' src="{{enter_roomnum_pic}}" 
+     mode="aspectFill"/>
+     <input
+      class="ipt"
+      type="digit"
+      placeholder="1~1000000"
+      maxlength="5"
+      confirm-type="done"
+      bindinput="onInput"  
+      ></input>
+  </view>
+
+  <view>
+    <image class='cloud' src="{{cloud_pic}}" 
+    mode="aspectFill"/>
+    <navigator url="/pages/prepare2/prepare2" class="turn_into">
+      <image class='enter_room' src="{{enter_room_pic}}" 
+      mode="aspectFill"/>
+    </navigator>
+  </view>
+
+</view>

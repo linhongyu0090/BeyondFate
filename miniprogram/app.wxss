@@ -1,0 +1,50 @@
+/**app.wxss**/
+/* .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}  */
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+page {
+  --themeColor: #BDA066;
+  --globalColor: #1a1b1c;
+  --focusColor: #4c4d4e;
+  --descColor: #7e8081;
+  --greyColor:#8e8e8e;
+  --subColor: #b1b2b3;
+  --lightColor:#e4e4e4;
+  --globalBgColor1: #e3e4e5;
+  --globalBgColor2: #f6f7f8;
+  --globalBgColor3: #ffffff;
+}
+
+button {
+  background: initial;
+}
+
+button:focus{
+  outline: 0;
+}
+
+button::after{
+  border: none;
+}
+
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

@@ -1,0 +1,34 @@
+<view>
+  <image class='background' src="{{background_pic}}" mode="aspectFill" />
+</view>
+<view>
+  <navigator url="/pages/menu/menu" class="jump">
+    <image class='menu' src="{{menu_pic}}" mode="aspectFill" />
+  </navigator>
+</view>
+
+
+<view class="people">
+  <image class='text' src="{{enter_people_pic}}" mode="aspectFit" />
+  <input class="ipt" type="digit" placeholder="1~6" maxlength="2" confirm-type="done" bindinput="onInputPeople"></input>
+</view>
+
+<!-- bindinput用于处理输入的局数 -->
+<view class="count">
+  <image class='text' src="{{enter_num_pic}}" mode="aspectFit" />
+  <input class="ipt" type="digit" placeholder="1~100" maxlength="3" confirm-type="done" bindinput="onInputNum"></input>
+</view>
+
+
+
+<view class="chip">
+  <image class='text' src="{{enter_money_pic}}" mode="aspectFit" />
+  <input class="ipt" type="digit" placeholder="1~1000000" maxlength="5" confirm-type="done" bindinput="onInputMoney"></input>
+</view>
+
+<view>
+  <image class='cloud' src="{{cloud_pic}}" mode="aspectFill" />
+  <navigator url="/pages/multiplayer_battle/multiplayer_battle" class="jump">
+    <image class='begin' src="{{begin_pic}}" mode="aspectFill" />
+  </navigator>
+</view>

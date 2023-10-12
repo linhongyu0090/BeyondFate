@@ -1,0 +1,207 @@
+.background{
+  width: 784rpx;
+  height: 2350rpx;
+  position: fixed;
+  background-size: 100% 100%;
+  z-index: -2;
+}
+.double{
+  width: 300rpx;
+  height: 100rpx;
+  left:30%;
+  position: absolute;
+  top: 20rpx;
+}
+.head_sculpture{
+  width: 100rpx;
+  height: 100rpx;
+  left:2%;
+  position: absolute;
+  top: 70rpx;
+}
+.count{
+  display: flex;  
+  flex-direction: row;  
+  justify-content: center;  
+  align-items: center;  
+
+  width: 200rpx;
+  height: 50rpx;
+  left:36%;
+  position: absolute;
+  top: 120rpx;
+}
+.count.text{
+  width: 150rpx;
+}
+.count.num{
+  width: 50rpx;
+}
+
+
+
+.line{
+  width: 780rpx;
+  height: 5rpx;
+  left:0%;
+  position: absolute;
+  top: 180rpx;
+}
+.Fixed_area{
+  width: 250rpx;
+  height: 70rpx;
+  left:35%;
+  position: absolute;
+  top: 200rpx;
+}
+
+.enemydice{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center
+}
+
+
+.line1{
+  width: 780rpx;
+  height: 5rpx;
+  left:0%;
+  position: absolute;
+  top: 536rpx;
+}
+.public{
+  width: 250rpx;
+  height: 70rpx;
+  left:35%;
+  position: absolute;
+  top: 556rpx;
+}
+.publicdice{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center
+}
+
+.mydice{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center
+}
+.multiplay1{
+  width: 70rpx;
+  height: 50rpx;
+  left:25%;
+  position: absolute;
+  top: 835rpx;
+}
+.multiplay2{
+  width: 70rpx;
+  height: 50rpx;
+  left:45%;
+  position: absolute;
+  top: 835rpx;
+}
+.multiplay3{
+  width: 70rpx;
+  height: 50rpx;
+  left:65%;
+  position: absolute;
+  top: 835rpx;
+}
+.line2{
+  width: 780rpx;
+  height: 5rpx;
+  left:0%;
+  position: absolute;
+  top: 892rpx;
+}
+.Fixed_area1{
+  width: 250rpx;
+  height: 70rpx;
+  left:35%;
+  position: absolute;
+  top: 912rpx;
+}
+.line3{
+  width: 780rpx;
+  height: 5rpx;
+  left:0%;
+  position: absolute;
+  top: 1250rpx;
+}
+.throw{
+  width: 150rpx;
+  height: 100rpx;
+  left:40%;
+  position: absolute;
+  top: 1280rpx;
+}
+
+.reset{
+  width: 150rpx;
+  height: 100rpx;
+  left:40%;
+  position: absolute;
+  top: 1280rpx;
+}
+
+.head_sculpture1{
+  width: 100rpx;
+  height: 100rpx;
+  left:85%;
+  position: absolute;
+  top: 1290rpx;
+}
+.chip1{
+  width: 160rpx;
+  height: 60rpx;
+  left:1%;
+  position: absolute;
+  top: 160rpx;
+}
+.enemy_chip{
+  width: 160rpx;
+  height: 100rpx;
+  left:23%;
+  position: absolute;
+  top: 160rpx;
+}
+
+.chip{
+  width: 160rpx;
+  height: 60rpx;
+  left:1%;
+  position: absolute;
+  top: 1250rpx;
+}
+.my_chip{
+  width: 160rpx;
+  height: 100rpx;
+  left:23%;
+  position: absolute;
+  top: 1250rpx;
+}
+.enemy_integral{
+  width: 160rpx;
+  height: 60rpx;
+  left:20%;
+  position: absolute;
+  top: 488rpx;
+}
+.my_integral{
+  width: 160rpx;
+  height: 60rpx;
+  left:20%;
+  position: absolute;
+  top: 1174rpx;
+}
+.cloud{
+  width: 302rpx;
+  height: 104rpx;
+  left:30%;
+  position: absolute;
+  top: 1280rpx;
+}

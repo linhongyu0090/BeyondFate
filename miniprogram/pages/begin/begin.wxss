@@ -1,0 +1,28 @@
+.background{
+  width: 100%;
+  height: 2600rpx;
+  position: fixed;
+  background-size: 100% 1500%;
+  z-index: -2;
+}
+.game_name{
+  width: 600rpx;
+  height: 200rpx;
+  position:relative;
+  padding: 100rpx;
+  top: 130rpx;
+}
+.enter .enter_game{
+  width: 400rpx;
+  height: 100rpx;
+  padding: 200rpx;
+  bottom: 50rpx;
+  position: absolute;
+}
+.cloud{
+  width: 368rpx;
+  height: 220rpx;
+  padding: 215rpx;
+  bottom: 20rpx;
+  position: absolute;
+}

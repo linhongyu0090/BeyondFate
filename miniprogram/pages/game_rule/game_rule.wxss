@@ -1,0 +1,30 @@
+.background{
+  width: 100%;
+  height: 2350rpx;
+  position: fixed;
+  background-size: 100% 100%;
+  z-index: -2;
+  /* 游戏规则介绍页面调整背景图片的不透明度不遮挡文字*/
+  opacity: 0.85;
+}
+.rule{
+  width: 300rpx;
+  height: 100rpx;
+  left:30%;
+  position: absolute;
+  top: 20rpx;
+}
+.content{
+  width: 700rpx;
+  height: 1280rpx;
+  left:5%;
+  position: absolute;
+  top: 130rpx;
+}
+.jump .menu{
+  width: 70rpx;
+  height: 70rpx;
+  left:83%;
+  position: absolute;
+  top: 30rpx;
+}

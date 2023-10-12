@@ -1,0 +1,169 @@
+
+
+<!-- 设置背景图片 -->
+<image style="position: fixed; top: 0rpx; left: 2rpx" class='background' src="{{background_pic}}" 
+mode="aspectFill"/>
+
+
+
+<!-- 标题 -->
+<view class="title">
+  <image class='multiple' src="{{title_pic}}" mode="aspectFit"/>
+</view>
+
+
+<!-- 当前局数 -->
+<view class = "count">
+<image class='text' src="{{present_num_pic}}" mode="aspectFit"/>
+<view class ="num">
+  {{current_num}}
+</view>
+</view>
+
+
+<!-- 玩家信息 -->
+<view class="scrollNav">
+  <scroll-view scroll-x>
+    <navigator url="" class="item" wx:for="{{player_num}}" wx:key="_id" wx:if="{{index == current_player}}"style="background:var(--lightColor);border-radius: 10px;">
+      <view class="pic">
+        <image src="{{dice_pic[index]}}" mode=""/>
+      </view>
+      <view class="text">
+        玩家：{{index+1}}
+      </view>
+      <view class="text2">
+        积分：{{points[index]}}
+      </view>
+      <view class="text3">
+        牌型：{{brandTypes[index]}}
+      </view>
+      <view class="text4">
+        筹码：{{money[index]}}
+      </view>
+    </navigator>
+    
+    <navigator url="" class="item" wx:for="{{player_num}}" wx:key="_id" wx:if="{{index != current_player}}">
+      <view class="pic">
+        <image src="{{dice_pic[index]}}" mode=""/>
+      </view>
+      <view class="text">
+        玩家：{{index+1}}
+      </view>
+      <view class="text2">
+        积分：{{points[index]}}
+      </view>
+      <view class="text3">
+        牌型：{{brandTypes[index]}}
+      </view>
+      <view class="text4">
+        筹码：{{money[index]}}
+      </view>
+    </navigator>
+  </scroll-view>
+</view>
+
+
+<!-- 公共投掷区 -->
+<view>
+  <image class='public' src="{{public_dice_pic}}" 
+  mode="aspectFit"/>
+</view>
+
+<view class="pubdice">
+  <view class="dice" wx:for="{{5}}" wx:key="id">
+    <image src="{{pubdice[current_player][index]}}" mode="aspectFit" bind:tap="clickDice" data-index= "{{index}}"/>
+  </view>
+</view>
+
+<image wx:if="{{isLock[current_player][0]==true}}" style="position: absolute; left: 26rpx; top: 838rpx; width: 100rpx; height: 50rpx; display: block; box-sizing: border-box" class='chip' src="{{lock_pic}}" 
+mode="aspectFill"/>
+<image wx:if="{{isLock[current_player][1]==true}}" style="position: absolute; left: 174rpx; top: 838rpx; width: 100rpx; height: 50rpx; display: block; box-sizing: border-box" class='chip' src="{{lock_pic}}" 
+mode="aspectFill"/>
+<image wx:if="{{isLock[current_player][2]==true}}" style="position: absolute; left: 328rpx; top: 838rpx; width: 100rpx; height: 50rpx; display: block; box-sizing: border-box" class='chip' src="{{lock_pic}}" 
+mode="aspectFill"/>
+<image wx:if="{{isLock[current_player][3]==true}}" style="position: absolute; left: 477rpx; top: 838rpx; width: 100rpx; height: 50rpx; display: block; box-sizing: border-box" class='chip' src="{{lock_pic}}" 
+mode="aspectFill"/>
+<image wx:if="{{isLock[current_player][4]==true}}" style="position: absolute; left: 626rpx; top: 838rpx; width: 100rpx; height: 50rpx; display: block; box-sizing: border-box" class='chip' src="{{lock_pic}}" 
+mode="aspectFill"/>
+
+<image style="position: absolute; left: -13rpx; top: 592rpx" class='line2' src="{{line_pic}}" 
+mode="aspectFill"/>
+<image style="position: absolute; left: -19rpx; top: 234rpx" class='line2' src="{{line_pic}}" 
+mode="aspectFill"/>
+
+
+<!-- 选定区 -->
+<view>
+  <image class='select' src="{{my_dice_pic}}" 
+  mode="aspectFit"/>
+</view>
+
+<view class="mydice">
+  <view class="dice" wx:for="{{5}}" wx:key="id">
+    <image src="{{mydice[current_player][index]}}" mode="aspectFit" bind:tap="clickDice" data-index= "{{index}}"/>
+  </view>
+</view>
+
+
+<image style="position: absolute; left: 4rpx; top: 910rpx" class='line3' src="{{line_pic}}" 
+mode="aspectFill"/>
+<image style="position: absolute; left: 0rpx; top: 1171rpx" class='line3' src="{{line_pic}}" 
+mode="aspectFill"/>
+
+
+<!-- 当前点数和牌型
+<view class="result">
+  <image class='pointtext' src="../../static/images/当前点数@3x.png" mode="aspectFit"/>
+  <view class="point">{{points[current_player]}}</view>
+  <image class='typetext' src="../../static/images/牌型@3x.png" mode="aspectFit"/>
+  <view class="type">{{brandType[current_player]}}</view>
+</view> -->
+
+
+
+<!--投掷和确认按钮 -->
+<view>
+  <image style="position: absolute; left: 225rpx; top: 1280rpx" class='cloud' src="{{cloud1_pic}}" mode="aspectFill"/>
+  <view wx:if="{{selectNum[current_player] == 5}}">
+    <!-- <view  wx:if="{{isCalculate[current_player] == true}}">
+      <image style="position: absolute; left: 0rpx; top: 1330rpx; width: 124rpx; height: 100rpx; display: block; box-sizing: border-box" class='reset' src="../../static/images/跳过@3x.png" mode="aspectFill" bind:tap="clickReset"/>
+    </view>
+    <view wx:else> -->
+      <image  style="position: absolute; left: 0rpx; top: 1330rpx; width: 124rpx; height: 100rpx; display: block; box-sizing: border-box" class='reset' src="{{calculate_pic}}" mode="aspectFill" bind:tap="clickReset"/>
+      <!-- <image  style="position: absolute; left: 596rpx; top: 1330rpx; width: 124rpx; height: 100rpx; display: block; box-sizing: border-box" class='reset' src="https://mp-28289c64-2f79-43ae-9504-4d243c590864.cdn.bspapp.com/image/结算@3x.png" mode="aspectFill" bind:tap="clickSettle"/> -->
+    <!-- </view> -->
+  </view>
+  <view wx:else>
+    <image wx:if="{{isConfirm == false}}" class='throw' src="{{throw_pic}}" 
+  mode="aspectFill" bind:tap="clickThrow"/>
+  <image wx:if="{{isConfirm == true}}" class='throw' src="{{confirm_pic}}" 
+mode="aspectFill" bind:tap="clickThrow"/>
+  </view>
+</view>
+<view class="settle" wx:if="{{current_num>total_num}}">
+    <navigator url="../settlement/settlement">
+    <image src="https://mp-28289c64-2f79-43ae-9504-4d243c590864.cdn.bspapp.com/image/结算@3x.png" mode="aspectFit"style="position: absolute; left: 596rpx; top: 1330rpx; width: 124rpx; height: 100rpx; display: block; box-sizing: border-box" class='reset'/>
+  </navigator>
+</view>
+
+<!-- 增加倍率 -->
+<view class="addTimes">
+  <view class="totaltext">
+    <image src="{{total_time}}" mode="aspectFit"/>
+  </view>
+    <view class="totalnum">
+      {{totalTime}}
+    </view>
+  <view class="pic">
+    <image src="{{add_time_pic}}" mode="aspectFit"/>
+  </view>
+  <view class="times">
+    <image class="time1" bind:tap="clickTime1" src="{{time_1_pic}}" mode="aspectFit"/>
+    <image class="time2" bind:tap="clickTime2" src="{{time_2_pic}}" mode="aspectFit"/>
+    <image class="time3" bind:tap="clickTime3" src="{{time_3_pic}}" mode="aspectFit"/>
+  </view>
+</view>
+
+
+<!-- 托管 -->
+<BF-footer></BF-footer>

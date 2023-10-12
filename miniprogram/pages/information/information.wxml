@@ -1,0 +1,61 @@
+<!-- TODO: 将头像和名字改为动态的获取用户的头像和名字传入 -->
+
+<view class="avatar">
+  <open-data  class="image_radius" type="userAvatarUrl"></open-data>
+</view>
+
+
+<image class='background' src="{{background_pic}}" 
+ mode="aspectFill"/>
+
+ <navigator url="/pages/menu/menu" class="jump">
+  <image class='menu' src="{{icon_pic}}" mode="aspectFill"/>
+ </navigator>
+
+<!-- <view class="image-container">
+  <image class='head_sculpture' src="{{player_pic}}" 
+ mode="aspectFill"/>
+</view> -->
+
+
+<view class="username">
+  <image class='name' src="{{user_name_pic}}" 
+ mode="aspectFit"/>
+</view>
+
+
+<!-- 将对战总局数、胜局总数、筹码总数封装到view中，便于后续数据传递 -->
+<view class='battle'>  
+  <view>  
+    <image class="text" src="{{total_game_num}}" mode="aspectFill"/>  
+  </view>  
+
+  <view class="num">  
+    {{battle_num}}
+  </view>  
+</view>
+
+<view class='victory'>  
+  <view>  
+    <image class='text' src="{{win_game_num}}" 
+ mode="aspectFill"/>
+  </view>  
+
+  <view class="num">  
+    {{victory_num}}
+  </view>  
+</view>
+
+
+<view class='chip'>  
+  <view>  
+    <image class='text' src="{{money_num}}" 
+ mode="aspectFill"/>
+  </view>  
+
+  <view class="num">  
+    {{chip_num}}
+  </view>  
+</view>
+
+
